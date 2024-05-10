@@ -1,16 +1,17 @@
 $(function () {
+
     $('.main_slide').slick({
-        arrows: true,
+        //arrows: false,
         autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 1000,
+        autoplaySpeed: 4000,
+        speed: 600,
         dots: true,
         pauseOnHover: false,
     });
 
+
     $('.header .mbtn').on('click', function () {
         $('.header .gnb').toggleClass('on')
     })
+
 })
-
-
